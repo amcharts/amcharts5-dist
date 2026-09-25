@@ -1,84 +1,41 @@
-## amCharts 5
+## amCharts 5: CDN distribution
 
-amCharts 5 is the fastest, most advanced amCharts data vizualization library, ever.
+This repository contains the pre-built browser (`<script>` tag) files of
+amCharts 5. Its only purpose is to feed public CDNs, such as
+[cdnjs](https://cdnjs.com/), with the same files we serve from
+`cdn.amcharts.com/lib/5/`.
 
-For a short overview of features, visit [amCharts website](https://www.amcharts.com/).
-
-
-### Important notice about support
-
-amCharts support is guaranteed for holders of amPlus subscription service.
-GitHub issues is not usually monitored by amCharts support staff and may not be
-answered. If you do have a license/subscription, you
-may [contact us directly](https://www.amcharts.com/support/support-info/priority-support/)
-for support. If you don't, here are
-[a few options](https://www.amcharts.com/support/support-info/free-support/)
-for you.
+It is updated automatically on each amCharts 5 release, with one tag per
+library version. **Please do not use it as a source for the library, and do
+not open issues or pull requests here.** Nothing in it is edited by hand.
 
 
-### Documentation
-
-For extensive documentation, including getting started tutorials, as well
-as class reference visit [amCharts 5 documentation website](https://www.amcharts.com/docs/v5).
-
-
-### amCharts 5 is available as
+### Where to get amCharts 5 instead
 
 * [NPM package](https://www.npmjs.com/package/@amcharts/amcharts5)
 * [GitHub repository](https://github.com/amcharts/amcharts5)
 * [ZIP download & CDN info](https://www.amcharts.com/download/)
 
 
-### Related packages
+### Layout
 
-This package inlcudes `MapChart` (geographical maps) functionality. However,
-it does not include geodata itself (map files) needed to instantiate the maps.
+The layout mirrors `https://cdn.amcharts.com/lib/5/`:
 
-Those are available via separate package:
-
-* [NPM package](https://www.npmjs.com/package/@amcharts/amcharts5-geodata)
-* [GitHub repository (geodata)](https://github.com/amcharts/amcharts5-geodata)
-* [ZIP download](https://www.amcharts.com/download/download/)
+* `index.js`, `xy.js`, `map.js`, ... - library files
+* `themes/`, `locales/`, `plugins/`, `deps/` - themes, translations, plugins and their dependencies
+* `geodata/` - map files (JSON versions are not included)
+* `fonts/` - fonts used by the PDF export
 
 
-### amCharts + AI
+### Documentation
 
-amCharts works nicely with all major AI models (Claude, ChatGPT, Gemini,
-etc.). For even better results, we provide the following resources:
-
-* [amCharts 5 + AI documentation](https://www.amcharts.com/docs/v5/ai/)
-* [amCharts 5 Skill on GitHub](https://github.com/amcharts/amcharts5-skill)
-* [amCharts 5 MCP Server on GitHub](https://github.com/amcharts/amcharts5-mcp)
-* [amCharts 5 MCP Server on npm](https://www.npmjs.com/package/@amcharts/amcharts5-mcp)
-* [amCharts 5 .cursorrules file](https://github.com/amcharts/amcharts5-skill/blob/main/cursorrules)
+[amCharts 5 documentation](https://www.amcharts.com/docs/v5)
 
 
 ### License
 
+amCharts 5 can be used for free, as long as the small amCharts branding
+link is shown on the charts. See [LICENSE](LICENSE) for details.
+
 If you have a commercial amCharts 5 license, this software is covered by your
 license, which supersedes any other license bundled with this package.
-
-If you don't have a commercial license, the use of this software is covered by
-a freeware license. Refer to included LICENSE file. The license is also
-[available online](https://github.com/amcharts/amcharts5/blob/master/packages/shared/LICENSE).
-
-
-### Creating translations
-
-Please refer to [this tutorial](https://www.amcharts.com/docs/v5/concepts/locales/creating-translations//).
-
-
-### Changelog
-
-* [amCharts 5 Changelog](https://github.com/amcharts/amcharts5/blob/master/CHANGELOG.md)
-* [Documentation Changelog](https://www.amcharts.com/docs/v5/changelog/)
-
-
-### Questions?
-
-[Contact amCharts](mailto:contact@amcharts.com).
-
-
-### Found a bug?
-
-Open an [issue](https://github.com/amcharts/amcharts5/issues).
