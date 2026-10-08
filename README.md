@@ -23,7 +23,7 @@ The layout mirrors `https://cdn.amcharts.com/lib/5/`:
 
 * `index.js`, `xy.js`, `map.js`, ... - library files
 * `themes/`, `locales/`, `plugins/`, `deps/` - themes, translations, plugins and their dependencies
-* `geodata/` - map files (JSON versions are not included)
+* `geodata/` - map files, with JSON versions in `geodata/json/`
 * `fonts/` - fonts used by the PDF export
 
 
