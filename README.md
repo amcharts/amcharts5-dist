@@ -29,7 +29,7 @@ The layout mirrors `https://cdn.amcharts.com/lib/5/`:
 
 ### Documentation
 
-[amCharts 5 documentation](https://www.amcharts.com/docs/v5)
+[amCharts 5 documentation](https://docs.amcharts.com/v5/)
 
 
 ### License
