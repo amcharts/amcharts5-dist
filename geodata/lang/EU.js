@@ -169,7 +169,7 @@ const lang = {
     "NL": "Herbehereak",
     "NO": "Norvegia",
     "NP": "Nepal",
-    "NR": "Nauru",
+    "NR": "Naoero",
     "NU": "Niue",
     "NZ": "Zeelanda Berria",
     "OM": "Oman",

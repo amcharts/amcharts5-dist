@@ -5,6 +5,20 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 Please note, that this project, while following numbering syntax, it DOES NOT
 adhere to [Semantic Versioning](http://semver.org/spec/v2.0.0.html) rules.
 
+## [5.2.0] - 2026-11-16
+
+### Added
+- The npm package now includes the CDN script files in `dist/`, for `<script>` tags from `node_modules` or unpkg.
+- `images/`: day and night images of the Earth, and images of the Moon, Mars, Venus, Jupiter, Io and Ganymede, from NASA and USGS, for `am5map.MapRasterSeries`. Credits are in `images/README.md`.
+
+### Changed
+- The maps of Kenya, Cambodia, Malawi, Equatorial Guinea, Lesotho and Slovenia are 4 to 20 times smaller (e.g. `kenyaHigh` 191 KB instead of 3.8 MB), with the same outlines at normal zoom.
+- Renamed Nauru to Naoero in world maps and related data.
+
+### Fixed
+- Map of North Korea.
+
+
 ## [5.1.6] - 2026-07-27
 
 ### Added

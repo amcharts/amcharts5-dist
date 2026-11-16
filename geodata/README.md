@@ -45,7 +45,7 @@ yarn add @amcharts/amcharts5-geodata
 ### Documentation
 
 For extensive documentation, including getting started tutorials, as well
-as class reference visit [V5 documentation website](https://www.amcharts.com/docs/v5).
+as class reference visit [V5 documentation website](https://docs.amcharts.com/v5/).
 
 
 ### amCharts 5 and geodata are available as
@@ -59,11 +59,19 @@ as class reference visit [V5 documentation website](https://www.amcharts.com/doc
 ### CDN
 
 JavaScript version of the files included in this package is available as a free
-CDN service, accessible via URL `https://www.amcharts.com/lib/5/geodata/...`,
+CDN service, accessible via URL `https://cdn.amcharts.com/lib/5/geodata/...`,
 e.g.:
 
 ```
-<script src="https://www.amcharts.com/lib/5/geodata/worldLow.js"></script>
+<script src="https://cdn.amcharts.com/lib/5/geodata/worldLow.js"></script>
+```
+
+The npm package has the same files in `dist/`, so a page can also load them
+from `node_modules/@amcharts/amcharts5-geodata/dist/` or from unpkg (jsDelivr
+does not serve this package: it is over jsDelivr's 150 MB limit):
+
+```
+<script src="https://unpkg.com/@amcharts/amcharts5-geodata@5.2.0/dist/worldLow.js"></script>
 ```
 
 

@@ -1015,7 +1015,7 @@ const countries2 = {
         "maps": ["nepal2020Low", "nepal2020High", "nepalLow", "nepalHigh"]
     },
     "NR": {
-        "country": "Nauru",
+        "country": "Naoero",
         "continent_code": "OC",
         "continent": "Oceania",
         "maps": []
